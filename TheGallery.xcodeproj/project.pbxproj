@@ -13,6 +13,12 @@
 		9F64A7B71D8E0E1000223550 /* TheGallery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F64A7B51D8E0E1000223550 /* TheGallery.xcdatamodeld */; };
 		9F64A7B91D8E0E1100223550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F64A7B81D8E0E1100223550 /* Assets.xcassets */; };
 		9F64A7BC1D8E0E1100223550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F64A7BA1D8E0E1100223550 /* LaunchScreen.storyboard */; };
+		9F64A7C41D8E11B100223550 /* ArtCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F64A7C31D8E11B100223550 /* ArtCollectionViewCell.swift */; };
+		9F9B99481D8E19A600385207 /* Art+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B99461D8E19A600385207 /* Art+CoreDataProperties.swift */; };
+		9F9B99491D8E19A600385207 /* Art.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B99471D8E19A600385207 /* Art.swift */; };
+		9F9B994D1D8E204800385207 /* baby.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9F9B994A1D8E204800385207 /* baby.jpeg */; };
+		9F9B994E1D8E204800385207 /* bird.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9F9B994B1D8E204800385207 /* bird.jpeg */; };
+		9F9B994F1D8E204800385207 /* horse.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9F9B994C1D8E204800385207 /* horse.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		9F64A7B81D8E0E1100223550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F64A7BB1D8E0E1100223550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F64A7BD1D8E0E1100223550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F64A7C31D8E11B100223550 /* ArtCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F9B99461D8E19A600385207 /* Art+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Art+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9F9B99471D8E19A600385207 /* Art.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Art.swift; sourceTree = "<group>"; };
+		9F9B994A1D8E204800385207 /* baby.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baby.jpeg; sourceTree = "<group>"; };
+		9F9B994B1D8E204800385207 /* bird.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird.jpeg; sourceTree = "<group>"; };
+		9F9B994C1D8E204800385207 /* horse.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horse.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,8 @@
 		9F64A7A21D8E0E0E00223550 = {
 			isa = PBXGroup;
 			children = (
+				9F9B99461D8E19A600385207 /* Art+CoreDataProperties.swift */,
+				9F9B99471D8E19A600385207 /* Art.swift */,
 				9F64A7AD1D8E0E1000223550 /* TheGallery */,
 				9F64A7AC1D8E0E0F00223550 /* Products */,
 			);
@@ -56,8 +70,12 @@
 		9F64A7AD1D8E0E1000223550 /* TheGallery */ = {
 			isa = PBXGroup;
 			children = (
+				9F9B994A1D8E204800385207 /* baby.jpeg */,
+				9F9B994B1D8E204800385207 /* bird.jpeg */,
+				9F9B994C1D8E204800385207 /* horse.jpeg */,
 				9F64A7AE1D8E0E1000223550 /* AppDelegate.swift */,
 				9F64A7B01D8E0E1000223550 /* ViewController.swift */,
+				9F64A7C31D8E11B100223550 /* ArtCollectionViewCell.swift */,
 				9F64A7B21D8E0E1000223550 /* Main.storyboard */,
 				9F64A7B81D8E0E1100223550 /* Assets.xcassets */,
 				9F64A7BA1D8E0E1100223550 /* LaunchScreen.storyboard */,
@@ -94,11 +112,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Javid Poornasir";
 				TargetAttributes = {
 					9F64A7AA1D8E0E0F00223550 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VWFZU9229C;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -127,7 +147,10 @@
 			files = (
 				9F64A7BC1D8E0E1100223550 /* LaunchScreen.storyboard in Resources */,
 				9F64A7B91D8E0E1100223550 /* Assets.xcassets in Resources */,
+				9F9B994E1D8E204800385207 /* bird.jpeg in Resources */,
 				9F64A7B41D8E0E1000223550 /* Main.storyboard in Resources */,
+				9F9B994D1D8E204800385207 /* baby.jpeg in Resources */,
+				9F9B994F1D8E204800385207 /* horse.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9B99481D8E19A600385207 /* Art+CoreDataProperties.swift in Sources */,
+				9F64A7C41D8E11B100223550 /* ArtCollectionViewCell.swift in Sources */,
 				9F64A7B11D8E0E1000223550 /* ViewController.swift in Sources */,
 				9F64A7B71D8E0E1000223550 /* TheGallery.xcdatamodeld in Sources */,
 				9F64A7AF1D8E0E1000223550 /* AppDelegate.swift in Sources */,
+				9F9B99491D8E19A600385207 /* Art.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,8 +206,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -203,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -226,8 +254,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -243,9 +273,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -255,10 +286,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TheGallery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.TheGallery;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CleanDev.theGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -266,10 +299,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TheGallery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.TheGallery;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CleanDev.theGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -292,6 +327,7 @@
 				9F64A7C21D8E0E1100223550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
